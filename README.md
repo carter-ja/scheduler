@@ -29,4 +29,10 @@ See: `https://brew.sh/` for reference.
 
 ### Install Requirements
 * Ensure that you have python3 installed, preferably 3.6 or above. Follow instructions on how to install python3 if you do not have it. Python should come with pip as well. Check to ensure that you have pip with the `pip --version` command. 
-* Clone this repository
+* Clone this repository.
+    * Example using https to connect to github: `https://github.com/carter-ja/scheduler.git`
+* Change directory to this repository's location
+* If desired, follow the instructions here to create and activate a virtual environment: `https://docs.python.org/3/tutorial/venv.html`
+    * This will ensure that the Python modules that you install are only installed in this virtual environment
+* If you chose to create a virtual environment, ensure it is activated. In the `scheduler/` root directory, type `pip install -r requirements.txt`. This will install all of the python requirements for the project.
+* Run the program by running `python __main__.py` from the `scheduler/` root directory.
